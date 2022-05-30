@@ -1,324 +1,591 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
-      rel="apple-touch-icon-precomposed"
-      sizes="57x57"
-      href="ico/apple-touch-icon-57x57.png"
-    />
-    <link
-      rel="apple-touch-icon-precomposed"
-      sizes="114x114"
-      href="ico/apple-touch-icon-114x114.png"
-    />
-    <link
-      rel="apple-touch-icon-precomposed"
-      sizes="72x72"
-      href="ico/apple-touch-icon-72x72.png"
-    />
-    <link
-      rel="apple-touch-icon-precomposed"
-      sizes="144x144"
-      href="ico/apple-touch-icon-144x144.png"
-    />
-    <link
-      rel="apple-touch-icon-precomposed"
-      sizes="60x60"
-      href="ico/apple-touch-icon-60x60.png"
-    />
-    <link
-      rel="apple-touch-icon-precomposed"
-      sizes="120x120"
-      href="ico/apple-touch-icon-120x120.png"
-    />
-    <link
-      rel="apple-touch-icon-precomposed"
-      sizes="76x76"
-      href="ico/apple-touch-icon-76x76.png"
-    />
-    <link
-      rel="apple-touch-icon-precomposed"
-      sizes="152x152"
-      href="ico/apple-touch-icon-152x152.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="ico/favicon-196x196.png"
-      sizes="196x196"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="ico/favicon-96x96.png"
-      sizes="96x96"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="ico/favicon-32x32.png"
-      sizes="32x32"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="ico/favicon-16x16.png"
-      sizes="16x16"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      href="ico/favicon-128.png"
-      sizes="128x128"
-    />
-    <meta name="application-name" content="&nbsp;" />
-    <meta name="msapplication-TileColor" content="#FFFFFF" />
-    <meta name="msapplication-TileImage" content="ico/mstile-144x144.png" />
-    <meta name="msapplication-square70x70logo" content="ico/mstile-70x70.png" />
-    <meta
-      name="msapplication-square150x150logo"
-      content="ico/mstile-150x150.png"
-    />
-    <meta
-      name="msapplication-wide310x150logo"
-      content="ico/mstile-310x150.png"
-    />
-    <meta
-      name="msapplication-square310x310logo"
-      content="ico/mstile-310x310.png"
-    />
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <link rel="stylesheet" href="assets/css/styles.css" />
+  <title>Rahmad Alfian Syahputra</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-    <!-- =====BOX ICONS===== -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <link href="https://fontawesome.com/v5.15/icons" rel="stylesheet" />
+  <!-- Favicons -->
+  <link href="assets/img/icon.png" rel="icon">
+  <link href="assets/img/icon.png" rel="apple-touch-icon">
 
-    <title>Rahmad Alfian Syahputra</title>
-  </head>
-  <body>
-    <!--===== BAGIAN ATAS (KEPALA) =====-->
-    <header class="l-header">
-      <nav class="nav bd-grid">
-        <div>
-          <a href="#" class="nav__logo">PORTOFOLIO</a>
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="https://e-rsud.langsakota.go.id/fapro/css/all.min.css" rel="stylesheet" type="text/css" />
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio - v3.7.0
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+
+
+
+  <style>
+    /* width */
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+      background: transparent;
+      opacity: 0.5;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: #717171;
+      border-radius: 10px;
+      opacity: 0.1;
+    }
+
+    /* Handle on hover */
+  </style>
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <!-- ======= Header ======= -->
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="assets/img/foto2.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Rahmad Alfian<br>Syahputra</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://twitter.com/Rahmed48_" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="https://web.facebook.com/RahmadAlfianS/" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="https://www.instagram.com/rahmed48_/" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/rahmad-s-5b8699130/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://github.com/rahmed48" class="linkedin"><i class="bx bxl-github"></i></a>
         </div>
-
-        <div class="nav__menu" id="nav-menu">
-          <ul class="nav__list">
-            <li class="nav__item">
-              <a href="#home" class="nav__link active">Utama</a>
-            </li>
-            <li class="nav__item">
-              <a href="#about" class="nav__link">Tentang</a>
-            </li>
-            <li class="nav__item">
-              <a href="#skills" class="nav__link">Keahlian</a>
-            </li>
-            <li class="nav__item">
-              <a href="#work" class="nav__link">Projek</a>
-            </li>
-            <li class="nav__item">
-              <a href="#contact" class="nav__link">Kontak</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="nav__toggle" id="nav-toggle">
-          <i class="bx bx-menu"></i>
-        </div>
-      </nav>
-    </header>
-
-    <main class="l-main">
-      <!--===== MENU UTAMA =====-->
-      <section class="home bd-grid" id="home">
-        <div class="home__data">
-          <h1 class="home__title">Hai, Saya</h1>
-          <h1 class="home__title2">
-            <span class="home__title-color">Rahmad Alfian Syahputra</span>
-          </h1>
-          <h1 class="home__title">
-            Back End Dev dan<br />Mobile App Dev
-          </h1>
-
-          <a href="https://wa.me/6285718025404" class="button">Kontak</a>
-        </div>
-
-        <div class="home__social">
-          <!-- <a href="https://www.linkedin.com/in/fitrailyasa12/" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="https://github.com/fitrailyasa12" target="_blank" class="home__social-icon"><i class='bx bxl-github' ></i></a> -->
-        </div>
-
-        <div class="home__img">
-          <img src="assets/img/gambar.png" alt="" />
-        </div>
-      </section>
-
-      <!--===== TENTANG =====-->
-      <section class="about section" id="about">
-        <h2 class="section-title">Tentang</h2>
-
-        <div class="about__container bd-grid">
-          <div class="about__img">
-            <img src="assets/img/gambar 2.png" alt="" />
-          </div>
-
-          <div>
-            <h2 class="about__subtitle">Rahmad Alfian Syahputra</h2>
-            <p class="about__text">
-              Saya Lahir di Lhokseumawe, Aceh <br />Pada Tanggal 03 Januari
-              2000.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <!--===== KEAHLIAN =====-->
-      <section class="skills section" id="skills">
-        <h2 class="section-title">Keahlian</h2>
-
-        <div class="skills__container bd-grid">
-          <div>
-            <h2 class="skills__subtitle">Keahlian Khusus</h2>
-            <p class="skills__text">Dasar Pemrograman Situs Web</p>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx bxl-html5 skills__icon"></i>
-                <span class="skills__name">HTML5</span>
-              </div>
-              <div class="skills__bar skills__html"></div>
-              <div>
-                <span class="skills__percentage">90%</span>
-              </div>
-            </div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx bxl-css3 skills__icon"></i>
-                <span class="skills__name">CSS3</span>
-              </div>
-              <div class="skills__bar skills__css"></div>
-              <div>
-                <span class="skills__percentage">80%</span>
-              </div>
-            </div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx bxl-javascript skills__icon"></i>
-                <span class="skills__name">JAVASCRIPT</span>
-              </div>
-              <div class="skills__bar skills__js"></div>
-              <div>
-                <span class="skills__percentage">65%</span>
-              </div>
-            </div>
-            <div class="skills__data">
-              <div class="skills__names">
-                <i class="bx bxs-paint skills__icon"></i>
-                <span class="skills__name">UX/UI</span>
-              </div>
-              <div class="skills__bar skills__ux"></div>
-              <div>
-                <span class="skills__percentage">85%</span>
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <img src="assets/img/work3.jpg" alt="" class="skills__img" />
-          </div>
-        </div>
-      </section>
-
-      <!--===== PROJEK =====-->
-      <section class="work section" id="work">
-        <h2 class="section-title">Projek</h2>
-
-        <div class="work__container bd-grid">
-          <div class="work__img">
-            <img src="assets/img/work1.jpg" alt="" />
-          </div>
-          <div class="work__img">
-            <img src="assets/img/work2.jpg" alt="" />
-          </div>
-          <div class="work__img">
-            <img src="assets/img/work3.jpg" alt="" />
-          </div>
-          <div class="work__img">
-            <img src="assets/img/work4.jpg" alt="" />
-          </div>
-          <div class="work__img">
-            <img src="assets/img/work5.jpg" alt="" />
-          </div>
-          <div class="work__img">
-            <img src="assets/img/work6.jpg" alt="" />
-          </div>
-        </div>
-      </section>
-
-      <!--===== KONTAK =====-->
-      <section class="contact section" id="contact">
-        <h2 class="section-title">Kontak</h2>
-
-        <div class="contact__container bd-grid">
-          <form action="" class="contact__form">
-            <input type="text" placeholder="Nama" class="contact__input" />
-            <input type="mail" placeholder="Email" class="contact__input" />
-            <textarea
-              name=""
-              id=""
-              cols="0"
-              rows="10"
-              class="contact__input"
-            ></textarea>
-            <input type="button" value="Kirim" class="contact__button button" />
-          </form>
-        </div>
-      </section>
-    </main>
-
-    <!--===== BAGIAN BAWAH (KAKI) =====-->
-    <footer class="footer">
-      <p class="footer__title">Rahmad Alfian Syahputra</p>
-      <div class="footer__social">
-        <a
-          href="https://facebook.com/fitrailyasa12"
-          target="_blank"
-          class="footer__icon"
-          ><i class="bx bxl-facebook"></i
-        ></a>
-        <a
-          href="https://instagram.com/fitrailyasa"
-          target="_blank"
-          class="footer__icon"
-          ><i class="bx bxl-instagram"></i
-        ></a>
-        <a
-          href="https://twitter.com/fitrailyasa12"
-          target="_blank"
-          class="footer__icon"
-          ><i class="bx bxl-twitter"></i
-        ></a>
-        <a
-          href="https://youtube.com/c/Ndejoker12"
-          target="_blank"
-          class="footer__icon"
-          ><i class="bx bxl-youtube"></i
-        ></a>
       </div>
-      <p>&#169; 2021 || Rahmad Alfian Syahputra</p>
-    </footer>
 
-    <!--===== ANIMASI BERGESER =====-->
-    <script src="https://unpkg.com/scrollreveal"></script>
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i>
+              <span>Home</span></a></li>
+          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i>
+              <span>About</span></a>
+          </li>
+          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i>
+              <span>Resume</span></a></li>
+          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i>
+              <span>Portfolio</span></a></li>
+          <!-- <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i>
+                        <span>Services</span></a></li> -->
+          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i>
+              <span>Contact</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+  <!-- End Header -->
 
-    <!--===== JAVASCRIPT =====-->
-    <script src="assets/js/main.js"></script>
-  </body>
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Rahmad Alfian</h1>
+      <p>I'm <span class="typed" data-typed-items="Back End Dev, Mobile App Dev, Front End Dev"></span></p>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <h4>A Full Stack Developer with more than 1 year experience, focusing on node js technology to build
+            and
+            develop mobile and web based applications. has built a mobile application for the company that
+            helps customers access information and web applications to help improve company efficiency</h4>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="assets/img/profile.jpeg" class="img-fluid" style="border-radius: 25px;" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Fullstack Developer</h3>
+            <p class="fst-italic">
+              I'm a junior fullstack developer
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>3 Januari
+                      2000</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong>
+                    <span>rahmed48.my.id</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong>
+                    <span>rahmadalfiansyahputra48@gmail.com</span></li>
+
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+62 853 7324
+                      3136 </span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Langsa,
+                      Aceh</span></li>
+                </ul>
+              </div>
+            </div>
+            <!-- <p>
+                            Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt
+                            adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
+                            Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus
+                            itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis
+                            culpa magni laudantium dolores.
+                        </p> -->
+          </div>
+        </div>
+      </div>
+
+      <section id="facts" class="facts">
+        <div class="container">
+          <div class="section-title">
+            <h2>Hobies</h2>
+            <h4>I like to play games to rest when I'm tired, to entertain myself, I also like watching
+              movies
+              and
+              traveling.</h4>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="skills section-bg">
+        <div class="container">
+
+          <div class="section-title">
+            <h2>Skills</h2>
+            <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
+                            sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
+                            ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
+          </div>
+
+          <div class="row skills-content">
+
+            <div class="col-lg-6" data-aos="fade-up">
+
+              <div class="progress">
+                <span class="skill">HTML<i class="val"></i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">CSS<i class="val"></i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">Node Js <i class="val"></i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">React Native<i class="val"></i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill">React Js<i class="val"></i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+
+              <div class="progress">
+                <span class="skill">WordPress/CMS <i class="val"></i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">Photoshop <i class="val"></i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill">Ilustrator <i class="val"></i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill">After Effect <i class="val"></i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill">Premiere Pro<i class="val"></i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+    </section>
+
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Resume</h2>
+          <h4>A Full Stack Developer with more than 1 year experience, focusing on node js technology to build
+            and
+            develop mobile and web based applications. has built a mobile application for the company that
+            helps customers access information and web applications to help improve company efficiency</h4>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up">
+            <h3 class="resume-title">Sumary</h3>
+            <div class="resume-item pb-0">
+              <h4>Rahmad Alfian Syahputra</h4>
+              <p><em>Junior Fullstack Developer</em></p>
+              <ul>
+                <li>Langsa Aceh</li>
+                <li>+62 853 7324 3136</li>
+                <li>rahmadalfiansyahputra48@gmail.com</li>
+              </ul>
+            </div>
+
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>bachelor of informatics engineering</h4>
+              <h5>2017 - 2022</h5>
+              <p><em>Universitas Samudra</em></p>
+              <p>Bachelor Degree of informatics engineering from Samudra University. start learning
+                programming with self-taught. Started many programming projects at the college.
+                Active in organization, and became chairman of HIMATIF (informatics engineering
+                association)</p>
+            </div>
+            <div class="resume-item">
+              <h4>Senior High School</h4>
+              <h5>2014 - 2017</h5>
+              <p><em>SMA N 1 Langsa</em></p>
+              <p>Active in several organizations such as student council, scouts, and basketball</p>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Work Experience</h3>
+            <div class="resume-item">
+              <h4>Fullstack Developer<h6><em>(student practical work)</em></h6>
+              </h4>
+              <h5>2020</h5>
+              <p><em>PT. Pupuk Iskandar Muda</em></p>
+              <p>PT Pupuk Iskandar Muda (PT PIM) is engaged in industry, trade and services in the fields
+                of fertilizers, petrochemicals and other chemicals.</p>
+            </div>
+            <div class="resume-item">
+              <h4>Fullstack Developer</h4>
+              <h5>2021 - present </h5>
+              <p><em>RSUD Langsa</em></p>
+              <p>Langsa Regional General Hospital is a health service institution owned by the Langsa City
+                Government which is located in the center of Langsa City, with a Class B Non-Educational
+                Hospital type which is a referral hospital from the East Aceh region,</p>
+            </div>
+            <h3 class="resume-title">Course</h3>
+            <div class="resume-item">
+              <h4>React Native Mobile App Development </h4>
+              <h5>Sanbercode</h5>
+              <p><em>02 Juli 2021 - 24187/119/BDG/P-SNBR/CODE/2021</em></p>
+              <!-- <p>28 September 2021 - 8PHLOEFWbn </p> -->
+            </div>
+            <div class="resume-item">
+              <h4>Full-Stack JavaScript Developer: Website Travel</h4>
+              <h5>Build With Angga</h5>
+              <p><em>28 September 2021 - 8PHLOEFWbn </em></p>
+              <!-- <p>28 September 2021 - 8PHLOEFWbn </p> -->
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <h4>These are some of the amazing works i have made.</h4>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-card">Card</li>
+              <li data-filter=".filter-web">Web</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
+                  class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <h4>You can contact me on.</h4>
+        </div>
+
+        <div class="row" data-aos="fade-in">
+
+          <div class="col-lg-12 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>Paya Bujok Teungoh, Langsa Barat, Kota Langsa, Aceh, Indonesia</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>rahmadalfiansyahputra48@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+62 853 7324 3136</p>
+              </div>
+
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4730.170946598694!2d97.96369325134137!3d4.488132986801382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30379ace16c95ab1%3A0x12316b1ae2d50639!2sLangsa%2C%20Paya%20Bujok%20Teungoh%2C%20Kec.%20Langsa%20Bar.%2C%20Kota%20Langsa%2C%20Aceh%2024355!5e0!3m2!1sid!2sid!4v1653579022376!5m2!1sid!2sid"
+                frameborder="0" style="border:0; width: 100%; height: 600px;" allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+          <!-- <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+                        <form id="formMhs" class="php-email-form" method="POST">
+                            <form id="formContact" class="php-email-form">
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="name">Your Name</label>
+                                    <input type="text" name="name" class="form-control" id="name" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="name">Your Email</label>
+                                    <input type="email" class="form-control" name="email" id="email" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Subject</label>
+                                <input type="text" class="form-control" name="subject" id="subject" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Message</label>
+                                <textarea class="form-control" name="message" rows="10" required></textarea>
+                            </div>
+                            <div class="my-3">
+                                <div class="loading">Loading</div>
+                                <div class="error-message"></div>
+                                <div class="sent-message">Your message has been sent. Thank you!</div>
+                            </div>
+                            <div class="text-center"><button type="submit" id="posting" disabled>Send Message</button>
+                            </div>
+                        </form>
+                    </div> -->
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+
+</body>
+
 </html>
